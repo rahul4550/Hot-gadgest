@@ -1,0 +1,144 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+    flex-wrap: nowrap;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #000000;
+    transition: .3s;
+
+}
+.navbar a:hover,
+.navbar a.active 
+{
+    color:tomato;
+}
+.carousel-item{
+    padding: 20px 40px;
+    top: 50px;
+ }
+   
+ .carousel-indicators li{
+    background-color:deeppink;
+ }
+ .carousel-item{
+   left: 60px;
+
+ }
+ .botton-buy{
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: aliceblue;
+  
+  
+ }
+
+ .bg-2
+ {
+    height: 120px;
+
+ }
+
+
+.container h3{
+    font-size: 25px;
+    color: #1F1F1F;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.card-body{
+    text-align: center;
+}
+.price{
+    font-size: 30px;
+
+}
+
+.loptop{
+    margin-top: 50px;
+    display: flex ;
+    justify-content: space-between;
+    
+}
+
+.Smartphone{
+    margin-top: 50px;
+
+}
+.see h4 {
+    font-size: 17px;
+    color: orange;
+
+}
+.Categories{
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline orange 5px;
+    font-size: 15px;
+}
+
+.categories-botton{
+    display: flex;
+    
+   
+    
+    
+}
+.a-photo{
+    margin-top: 270px;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px lightgray;
+    height: 170px;
+    position: relative;
+    text-align: center;
+}
+.photo img{
+   margin-top: 100px;
+   height: 400px;
+   width: 400px;
+   margin-left: 80px;
+   
+}
+
+.c-photo{
+    position: relative;
+    margin-top: 350px;
+    left: 30px; box-shadow: 5px 5px 10px lightgray;
+    height: 170px;
+    text-align: center;
+}
+.bag{
+    left: 30px; box-shadow: 5px 5px 10px lightgray;
+    height: 170px;
+    text-align: center;
+    position: relative;
+    left: 310px;
+    top: 130px;
+}
+.footer{
+    text-align: center;
+   margin-top: 50px;
+}
